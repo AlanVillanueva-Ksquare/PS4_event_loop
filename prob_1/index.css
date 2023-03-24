@@ -1,0 +1,46 @@
+#clock{
+    position: relative;
+    background-color: rgb(236,236,238);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    
+}
+
+#hour{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid rgb(46,62,78);
+    width: 35px;
+    height: 0px;
+    border-radius: 8px;
+    transform-origin: left center;
+    
+
+}
+
+#minute{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid rgb(116,186,219);
+    width: 65px;
+    height: 0px;
+    border-radius: 8px;
+    transform-origin: left center;
+
+}
+
+#second{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    border: 3px solid rgb(249,201,68);
+    width: 90px;
+    height: 0px;
+    border-radius: 8px;
+    transform-origin: left center;
+
+}
